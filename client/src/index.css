@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-ink: #1b231d;
+  --color-paper: #f2f1e9;
+  --color-clay: #3a5a40;      /* primary accent — kept variable name for compatibility, now forest green */
+  --color-accent-dark: #2c4530;
+  --color-gold: #c08a2e;
+  --color-line: #dcd8ca;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Work Sans", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+}

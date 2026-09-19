@@ -1,0 +1,21 @@
+# Dependencies
+**/node_modules/
+
+# Build folders
+**/dist/
+**/dist-ssr/
+
+# Environment variables
+**/.env
+*.local
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+*.mp4
